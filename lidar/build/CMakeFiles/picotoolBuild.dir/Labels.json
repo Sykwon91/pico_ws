@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/CMakeFiles/picotoolBuild"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/CMakeFiles/picotoolBuild.rule"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/CMakeFiles/picotoolBuild-complete.rule"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
+		},
+		{
+			"file" : "/home/kwon/pico_ws/lidar/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"picotoolBuild"
+		],
+		"name" : "picotoolBuild"
+	}
+}

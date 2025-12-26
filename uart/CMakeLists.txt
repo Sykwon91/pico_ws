@@ -14,11 +14,11 @@ pico_sdk_init()
 
 # rest of your project
 add_executable(uart
-    src/main.c
+    src/main.cpp
 )
 
 # Add pico_stdlib library which aggregates commonly used features
-target_link_libraries(uart pico_stdlib hardware_i2c)
+target_link_libraries(uart pico_stdlib hardware_i2c )
 
 pico_enable_stdio_usb(uart 1)
 pico_enable_stdio_uart(uart 0)
