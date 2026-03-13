@@ -4,8 +4,8 @@ lib/CMakeFiles/mbedtls.dir/home/kwon/pico-sdk/lib/mbedtls/library/threading.c.o:
  /home/kwon/pico-sdk/lib/mbedtls/library/common.h \
  /home/kwon/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
  /home/kwon/pico_ws/uart/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -25,16 +25,15 @@ lib/CMakeFiles/mbedtls.dir/home/kwon/pico-sdk/lib/mbedtls/library/threading.c.o:
  /home/kwon/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
  /home/kwon/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
  /home/kwon/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /home/kwon/pico-sdk/lib/mbedtls/library/alignment.h \
- /usr/include/string.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/string.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \

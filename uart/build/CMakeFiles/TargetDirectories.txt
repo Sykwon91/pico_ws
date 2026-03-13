@@ -1,4 +1,6 @@
 /home/kwon/pico_ws/uart/build/CMakeFiles/uart.dir
+/home/kwon/pico_ws/uart/build/CMakeFiles/picotoolForceReconfigure.dir
+/home/kwon/pico_ws/uart/build/CMakeFiles/picotoolBuild.dir
 /home/kwon/pico_ws/uart/build/CMakeFiles/edit_cache.dir
 /home/kwon/pico_ws/uart/build/CMakeFiles/rebuild_cache.dir
 /home/kwon/pico_ws/uart/build/pico-sdk/CMakeFiles/edit_cache.dir

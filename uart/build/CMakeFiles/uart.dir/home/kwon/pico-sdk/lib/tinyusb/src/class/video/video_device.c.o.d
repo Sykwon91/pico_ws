@@ -8,13 +8,13 @@ CMakeFiles/uart.dir/home/kwon/pico-sdk/lib/tinyusb/src/class/video/video_device.
  /home/kwon/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /home/kwon/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /home/kwon/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
  /usr/include/newlib/sys/features.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
  /home/kwon/pico_ws/uart/build/generated/pico_base/pico/version.h \
  /home/kwon/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
  /home/kwon/pico_ws/uart/build/generated/pico_base/pico/config_autogen.h \
@@ -32,5 +32,5 @@ CMakeFiles/uart.dir/home/kwon/pico-sdk/lib/tinyusb/src/class/video/video_device.
  /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /home/kwon/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
  /home/kwon/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h

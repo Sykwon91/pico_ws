@@ -16,12 +16,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kwon/pico_ws/uart/build/_deps/picotool-src/no_otp.cpp" "CMakeFiles/picotool.dir/no_otp.cpp.o" "gcc" "CMakeFiles/picotool.dir/no_otp.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/kwon/pico_ws/uart/build/_deps/picotool-build/bintool/CMakeFiles/bintool.dir/DependInfo.cmake"
+  "/home/kwon/pico_ws/uart/build/_deps/picotool-build/elf2uf2/CMakeFiles/elf2uf2.dir/DependInfo.cmake"
+  "/home/kwon/pico_ws/uart/build/_deps/picotool-build/errors/CMakeFiles/errors.dir/DependInfo.cmake"
+  "/home/kwon/pico_ws/uart/build/_deps/picotool-build/lib/CMakeFiles/mbedtls.dir/DependInfo.cmake"
+  "/home/kwon/pico_ws/uart/build/_deps/picotool-build/elf/CMakeFiles/elf.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
