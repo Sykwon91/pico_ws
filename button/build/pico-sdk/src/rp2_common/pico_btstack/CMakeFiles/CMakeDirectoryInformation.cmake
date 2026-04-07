@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/kwon/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/kwon/embedded_ws/rasberry_ws/pico_ws/button/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/kwon/pico_ws/button/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
