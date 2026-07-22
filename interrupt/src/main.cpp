@@ -2,7 +2,7 @@
 #include "pico/stdlib.h"
 
 #define INPUT_PIN 15
-
+#define LED_PIN 25
 volatile bool signal_detected = false;
 
 // 인터럽트 콜백 함수
@@ -23,6 +23,9 @@ int main()
     gpio_init(INPUT_PIN);
     gpio_set_dir(INPUT_PIN, GPIO_IN);
     gpio_pull_down(INPUT_PIN);  // 필요에 따라 pull-up 또는 pull-down 설정
+    gpio_init(LED_PIN);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
+    gpio_pull_up(LED_PIN);  // 필요에 따라 pull-up 또는 pull-down 설정
 
     // GPIO 인터럽트 등록
     gpio_set_irq_enabled_with_callback(
@@ -36,7 +39,10 @@ int main()
         if (signal_detected) {
             signal_detected = false;
             printf("a\n");
+            gpio_put(LED_PIN, 1);
+            sleep_ms(100);
         }
+        gpio_put(LED_PIN, 0);
         tight_loop_contents();
         //sleep_ms(10);
     }

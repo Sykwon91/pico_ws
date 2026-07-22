@@ -3839,86 +3839,13 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
   /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
   /home/kwon/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
   /home/kwon/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  /usr/include/newlib/c++/10.3.1/iostream \
-  /usr/include/newlib/c++/10.3.1/ostream \
-  /usr/include/newlib/c++/10.3.1/ios \
-  /usr/include/newlib/c++/10.3.1/iosfwd \
-  /usr/include/newlib/c++/10.3.1/bits/stringfwd.h \
-  /usr/include/newlib/c++/10.3.1/bits/memoryfwd.h \
-  /usr/include/newlib/c++/10.3.1/bits/postypes.h \
-  /usr/include/newlib/c++/10.3.1/cwchar \
-  /usr/include/newlib/wchar.h \
-  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/c++/10.3.1/cstdio \
+  /usr/include/newlib/stdio.h \
   /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
   /usr/include/newlib/sys/_types.h \
   /usr/include/newlib/machine/_types.h \
   /usr/include/newlib/sys/lock.h \
-  /usr/include/newlib/sys/_locale.h \
-  /usr/include/newlib/c++/10.3.1/exception \
-  /usr/include/newlib/c++/10.3.1/bits/exception.h \
-  /usr/include/newlib/c++/10.3.1/bits/exception_ptr.h \
-  /usr/include/newlib/c++/10.3.1/bits/exception_defines.h \
-  /usr/include/newlib/c++/10.3.1/bits/cxxabi_init_exception.h \
-  /usr/include/newlib/c++/10.3.1/typeinfo \
-  /usr/include/newlib/c++/10.3.1/bits/hash_bytes.h \
-  /usr/include/newlib/c++/10.3.1/new \
-  /usr/include/newlib/c++/10.3.1/bits/nested_exception.h \
-  /usr/include/newlib/c++/10.3.1/bits/move.h \
-  /usr/include/newlib/c++/10.3.1/type_traits \
-  /usr/include/newlib/c++/10.3.1/bits/char_traits.h \
-  /usr/include/newlib/c++/10.3.1/bits/stl_algobase.h \
-  /usr/include/newlib/c++/10.3.1/bits/functexcept.h \
-  /usr/include/newlib/c++/10.3.1/bits/cpp_type_traits.h \
-  /usr/include/newlib/c++/10.3.1/ext/type_traits.h \
-  /usr/include/newlib/c++/10.3.1/ext/numeric_traits.h \
-  /usr/include/newlib/c++/10.3.1/bits/stl_pair.h \
-  /usr/include/newlib/c++/10.3.1/bits/stl_iterator_base_types.h \
-  /usr/include/newlib/c++/10.3.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/newlib/c++/10.3.1/bits/concept_check.h \
-  /usr/include/newlib/c++/10.3.1/debug/assertions.h \
-  /usr/include/newlib/c++/10.3.1/bits/stl_iterator.h \
-  /usr/include/newlib/c++/10.3.1/bits/ptr_traits.h \
-  /usr/include/newlib/c++/10.3.1/debug/debug.h \
-  /usr/include/newlib/c++/10.3.1/bits/predefined_ops.h \
-  /usr/include/newlib/c++/10.3.1/cstdint \
-  /usr/include/newlib/c++/10.3.1/bits/localefwd.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++locale.h \
-  /usr/include/newlib/c++/10.3.1/clocale \
-  /usr/include/newlib/locale.h \
-  /usr/include/newlib/c++/10.3.1/cctype \
-  /usr/include/newlib/ctype.h \
-  /usr/include/newlib/c++/10.3.1/bits/ios_base.h \
-  /usr/include/newlib/c++/10.3.1/ext/atomicity.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/gthr.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/gthr-default.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/atomic_word.h \
-  /usr/include/newlib/c++/10.3.1/bits/locale_classes.h \
-  /usr/include/newlib/c++/10.3.1/string \
-  /usr/include/newlib/c++/10.3.1/bits/allocator.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++allocator.h \
-  /usr/include/newlib/c++/10.3.1/ext/new_allocator.h \
-  /usr/include/newlib/c++/10.3.1/bits/ostream_insert.h \
-  /usr/include/newlib/c++/10.3.1/bits/cxxabi_forced.h \
-  /usr/include/newlib/c++/10.3.1/bits/stl_function.h \
-  /usr/include/newlib/c++/10.3.1/backward/binders.h \
-  /usr/include/newlib/c++/10.3.1/bits/range_access.h \
-  /usr/include/newlib/c++/10.3.1/initializer_list \
-  /usr/include/newlib/c++/10.3.1/bits/iterator_concepts.h \
-  /usr/include/newlib/c++/10.3.1/concepts \
-  /usr/include/newlib/c++/10.3.1/bits/range_cmp.h \
-  /usr/include/newlib/c++/10.3.1/bits/basic_string.h \
-  /usr/include/newlib/c++/10.3.1/ext/alloc_traits.h \
-  /usr/include/newlib/c++/10.3.1/bits/alloc_traits.h \
-  /usr/include/newlib/c++/10.3.1/bits/stl_construct.h \
-  /usr/include/newlib/c++/10.3.1/ext/string_conversions.h \
-  /usr/include/newlib/c++/10.3.1/cstdlib \
-  /usr/include/newlib/c++/10.3.1/stdlib.h \
-  /usr/include/newlib/stdlib.h \
-  /usr/include/newlib/machine/stdlib.h \
-  /usr/include/newlib/alloca.h \
-  /usr/include/newlib/c++/10.3.1/bits/std_abs.h \
-  /usr/include/newlib/c++/10.3.1/cstdio \
-  /usr/include/newlib/stdio.h \
   /usr/include/newlib/sys/types.h \
   /usr/include/newlib/sys/_stdint.h \
   /usr/include/newlib/machine/endian.h \
@@ -3931,150 +3858,14 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/newlib/sys/_pthreadtypes.h \
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
-  /usr/include/newlib/sys/stdio.h \
-  /usr/include/newlib/c++/10.3.1/cerrno \
-  /usr/include/newlib/errno.h \
-  /usr/include/newlib/sys/errno.h \
-  /usr/include/newlib/c++/10.3.1/bits/charconv.h \
-  /usr/include/newlib/c++/10.3.1/bits/functional_hash.h \
-  /usr/include/newlib/c++/10.3.1/bits/basic_string.tcc \
-  /usr/include/newlib/c++/10.3.1/bits/locale_classes.tcc \
-  /usr/include/newlib/c++/10.3.1/system_error \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/error_constants.h \
-  /usr/include/newlib/c++/10.3.1/stdexcept \
-  /usr/include/newlib/c++/10.3.1/streambuf \
-  /usr/include/newlib/c++/10.3.1/bits/streambuf.tcc \
-  /usr/include/newlib/c++/10.3.1/bits/basic_ios.h \
-  /usr/include/newlib/c++/10.3.1/bits/locale_facets.h \
-  /usr/include/newlib/c++/10.3.1/cwctype \
-  /usr/include/newlib/wctype.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/ctype_base.h \
-  /usr/include/newlib/c++/10.3.1/bits/streambuf_iterator.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/ctype_inline.h \
-  /usr/include/newlib/c++/10.3.1/bits/locale_facets.tcc \
-  /usr/include/newlib/c++/10.3.1/bits/basic_ios.tcc \
-  /usr/include/newlib/c++/10.3.1/bits/ostream.tcc \
-  /usr/include/newlib/c++/10.3.1/istream \
-  /usr/include/newlib/c++/10.3.1/bits/istream.tcc
+  /usr/include/newlib/sys/stdio.h
 
-
-/usr/include/newlib/c++/10.3.1/istream:
-
-/usr/include/newlib/c++/10.3.1/bits/ostream.tcc:
-
-/usr/include/newlib/c++/10.3.1/bits/basic_ios.tcc:
-
-/usr/include/newlib/c++/10.3.1/bits/locale_facets.tcc:
-
-/usr/include/newlib/c++/10.3.1/bits/streambuf_iterator.h:
-
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/ctype_base.h:
-
-/usr/include/newlib/wctype.h:
-
-/usr/include/newlib/c++/10.3.1/cwctype:
-
-/usr/include/newlib/c++/10.3.1/streambuf:
-
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/error_constants.h:
-
-/usr/include/newlib/c++/10.3.1/system_error:
-
-/usr/include/newlib/c++/10.3.1/bits/locale_classes.tcc:
-
-/usr/include/newlib/c++/10.3.1/bits/basic_string.tcc:
-
-/usr/include/newlib/c++/10.3.1/stdexcept:
-
-/usr/include/newlib/c++/10.3.1/bits/functional_hash.h:
-
-/usr/include/newlib/c++/10.3.1/bits/charconv.h:
-
-/usr/include/newlib/c++/10.3.1/bits/stl_construct.h:
-
-/usr/include/newlib/c++/10.3.1/bits/alloc_traits.h:
-
-/usr/include/newlib/c++/10.3.1/ext/alloc_traits.h:
-
-/usr/include/newlib/c++/10.3.1/bits/basic_string.h:
-
-/usr/include/newlib/c++/10.3.1/bits/range_cmp.h:
-
-/usr/include/newlib/c++/10.3.1/bits/basic_ios.h:
-
-/usr/include/newlib/c++/10.3.1/concepts:
-
-/usr/include/newlib/c++/10.3.1/initializer_list:
-
-/usr/include/newlib/c++/10.3.1/bits/stl_function.h:
-
-/usr/include/newlib/c++/10.3.1/bits/cxxabi_forced.h:
-
-/usr/include/newlib/c++/10.3.1/ext/new_allocator.h:
-
-/usr/include/newlib/c++/10.3.1/string:
-
-/usr/include/newlib/c++/10.3.1/ext/atomicity.h:
-
-/usr/include/newlib/c++/10.3.1/bits/ios_base.h:
-
-/usr/include/newlib/c++/10.3.1/bits/locale_facets.h:
-
-/usr/include/newlib/ctype.h:
-
-/usr/include/newlib/c++/10.3.1/cctype:
-
-/usr/include/newlib/locale.h:
-
-/usr/include/newlib/c++/10.3.1/cstdint:
-
-/usr/include/newlib/c++/10.3.1/bits/predefined_ops.h:
-
-/usr/include/newlib/c++/10.3.1/bits/ptr_traits.h:
-
-/usr/include/newlib/c++/10.3.1/bits/stl_iterator.h:
-
-/usr/include/newlib/c++/10.3.1/bits/concept_check.h:
-
-/usr/include/newlib/c++/10.3.1/bits/stl_pair.h:
-
-/usr/include/newlib/c++/10.3.1/bits/cpp_type_traits.h:
-
-/usr/include/newlib/c++/10.3.1/bits/stl_algobase.h:
-
-/usr/include/newlib/c++/10.3.1/bits/char_traits.h:
-
-/usr/include/newlib/c++/10.3.1/bits/move.h:
-
-/usr/include/newlib/c++/10.3.1/typeinfo:
-
-/usr/include/newlib/c++/10.3.1/bits/exception.h:
-
-/usr/include/newlib/wchar.h:
-
-/usr/include/newlib/c++/10.3.1/cwchar:
-
-/usr/include/newlib/c++/10.3.1/bits/postypes.h:
-
-/usr/include/newlib/c++/10.3.1/bits/memoryfwd.h:
-
-/usr/include/newlib/c++/10.3.1/bits/stringfwd.h:
-
-/usr/include/newlib/c++/10.3.1/iosfwd:
-
-/usr/include/newlib/c++/10.3.1/ext/type_traits.h:
-
-/usr/include/newlib/c++/10.3.1/iostream:
 
 ../src/main.cpp:
-
-/usr/include/newlib/c++/10.3.1/ext/numeric_traits.h:
 
 /home/kwon/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
-
-/usr/include/newlib/c++/10.3.1/new:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
 
@@ -4085,8 +3876,6 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 /home/kwon/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
-
-/usr/include/newlib/c++/10.3.1/bits/stl_iterator_base_funcs.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
 
@@ -4102,8 +3891,6 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 
 /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
 
-/usr/include/newlib/c++/10.3.1/bits/exception_defines.h:
-
 /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
@@ -4113,8 +3900,6 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 /home/kwon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
 /home/kwon/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
-
-/usr/include/newlib/c++/10.3.1/bits/exception_ptr.h:
 
 /home/kwon/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
 
@@ -4142,8 +3927,6 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 
 /home/kwon/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
 
-/usr/include/newlib/c++/10.3.1/backward/binders.h:
-
 /home/kwon/pico-sdk/src/common/hardware_claim/claim.c:
 
 /home/kwon/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
@@ -4161,8 +3944,6 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 /home/kwon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
 
 /home/kwon/pico-sdk/src/rp2_common/hardware_sync/sync.c:
-
-/usr/include/newlib/c++/10.3.1/debug/debug.h:
 
 /home/kwon/pico-sdk/src/common/pico_time/include/pico/time.h:
 
@@ -4186,13 +3967,9 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/newlib/sys/sched.h:
 
-/usr/include/newlib/c++/10.3.1/debug/assertions.h:
-
 /home/kwon/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h:
 
 /usr/include/newlib/sys/_timespec.h:
-
-/usr/include/newlib/c++/10.3.1/ext/string_conversions.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
@@ -4204,13 +3981,7 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 
 /home/kwon/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
 
-/usr/include/newlib/c++/10.3.1/bits/allocator.h:
-
-/usr/include/newlib/c++/10.3.1/bits/locale_classes.h:
-
 /usr/include/newlib/stdlib.h:
-
-/usr/include/newlib/c++/10.3.1/bits/hash_bytes.h:
 
 /home/kwon/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
 
@@ -4223,8 +3994,6 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/newlib/inttypes.h:
 
 /home/kwon/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
-
-/usr/include/newlib/c++/10.3.1/ostream:
 
 /home/kwon/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
 
@@ -4244,15 +4013,9 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 
 /home/kwon/pico-sdk/src/rp2_common/hardware_irq/irq.c:
 
-/usr/include/newlib/c++/10.3.1/bits/iterator_concepts.h:
-
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/atomic_word.h:
-
 /home/kwon/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
-
-/usr/include/newlib/c++/10.3.1/bits/nested_exception.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
 
@@ -4263,8 +4026,6 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 /home/kwon/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
 
 /home/kwon/pico-sdk/lib/tinyusb/src/device/dcd.h:
-
-/usr/include/newlib/c++/10.3.1/clocale:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h:
 
@@ -4284,8 +4045,6 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 
 /home/kwon/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
 
-/usr/include/newlib/c++/10.3.1/ios:
-
 /home/kwon/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
 
 /usr/include/newlib/machine/_endian.h:
@@ -4295,8 +4054,6 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
 
 /usr/include/newlib/sys/cdefs.h:
-
-/usr/include/newlib/c++/10.3.1/bits/functexcept.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
 
@@ -4310,15 +4067,11 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 
 /home/kwon/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
 
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/ctype_inline.h:
-
 /home/kwon/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
 
 /usr/include/newlib/newlib.h:
 
 /usr/include/newlib/sys/_pthreadtypes.h:
-
-/usr/include/newlib/errno.h:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
 
@@ -4330,25 +4083,17 @@ CMakeFiles/kvm.dir/src/main.cpp.o: ../src/main.cpp \
 
 /home/kwon/pico-sdk/src/boards/include/boards/pico_w.h:
 
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/gthr.h:
-
 /usr/include/newlib/strings.h:
 
 generated/pico_base/pico/config_autogen.h:
 
 /home/kwon/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
 
-/usr/include/newlib/sys/errno.h:
-
 /usr/include/newlib/c++/10.3.1/cassert:
-
-/usr/include/newlib/c++/10.3.1/bits/localefwd.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
-
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/gthr-default.h:
 
 /home/kwon/pico-sdk/lib/tinyusb/src/tusb.h:
 
@@ -4368,8 +4113,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
 
-/usr/include/newlib/c++/10.3.1/bits/stl_iterator_base_types.h:
-
 /home/kwon/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
 
 /usr/include/newlib/sys/_intsup.h:
@@ -4382,8 +4125,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /usr/include/newlib/sys/_locale.h:
 
-/usr/include/newlib/c++/10.3.1/bits/ostream_insert.h:
-
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
@@ -4391,8 +4132,6 @@ generated/pico_base/pico/config_autogen.h:
 /home/kwon/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
-
-/usr/include/newlib/c++/10.3.1/bits/range_access.h:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
 
@@ -4413,8 +4152,6 @@ generated/pico_base/pico/config_autogen.h:
 /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
-
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++locale.h:
 
 /home/kwon/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
@@ -4440,8 +4177,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kwon/pico-sdk/src/common/pico_time/time.c:
 
-/usr/include/newlib/c++/10.3.1/type_traits:
-
 /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
 
 /home/kwon/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
@@ -4455,8 +4190,6 @@ generated/pico_base/pico/config_autogen.h:
 /usr/include/newlib/sys/timespec.h:
 
 /home/kwon/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
-
-/usr/include/newlib/c++/10.3.1/bits/streambuf.tcc:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
 
@@ -4481,8 +4214,6 @@ generated/pico_base/pico/config_autogen.h:
 /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
 
 /usr/include/newlib/sys/unistd.h:
-
-/usr/include/newlib/c++/10.3.1/exception:
 
 /usr/include/newlib/machine/types.h:
 
@@ -4518,8 +4249,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
 
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++allocator.h:
-
 /home/kwon/pico-sdk/src/common/pico_util/queue.c:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
@@ -4539,8 +4268,6 @@ generated/pico_base/pico/config_autogen.h:
 generated/pico_base/pico/version.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
-
-/usr/include/newlib/c++/10.3.1/bits/cxxabi_init_exception.h:
 
 /home/kwon/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
@@ -4570,8 +4297,6 @@ generated/pico_base/pico/version.h:
 
 /home/kwon/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
 
-/usr/include/newlib/c++/10.3.1/bits/istream.tcc:
-
 /usr/include/newlib/c++/10.3.1/cstdio:
 
 /home/kwon/pico-sdk/src/rp2_common/hardware_timer/timer.c:
@@ -4597,8 +4322,6 @@ generated/pico_base/pico/version.h:
 /home/kwon/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
-
-/usr/include/newlib/c++/10.3.1/cerrno:
 
 /home/kwon/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
 
