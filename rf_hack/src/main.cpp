@@ -9,19 +9,31 @@
 enum class OperatingMode
 {
     PassiveKeyMonitor,
+    DirectAsk315Monitor,
     TestTransmitter,
     TestResponder
 };
 
 constexpr OperatingMode MODE =
-    OperatingMode::PassiveKeyMonitor;
+    OperatingMode::DirectAsk315Monitor;
+
+// 315 MHz receiver DATA input. The receiver is powered from 5 V, so connect
+// DATA through a 10 kOhm / 20 kOhm voltage divider before this Pico pin.
+constexpr uint DIRECT_ASK_DATA_PIN = 22;
 
 int main()
 {
     stdio_init_all();
     sleep_ms(1500);
 
-    printf("\nCC1101 RF Tester\n");
+    printf("\nRF Tester\n");
+
+    if (MODE == OperatingMode::DirectAsk315Monitor)
+    {
+        PulseCapture capture;
+        runDirectAskMonitor(capture, DIRECT_ASK_DATA_PIN);
+        return 0;
+    }
 
     CC1101::Config config;
     config.spi = spi0;
@@ -59,6 +71,9 @@ int main()
             runPassiveKeyMonitor(radio, capture);
             break;
         }
+
+        case OperatingMode::DirectAsk315Monitor:
+            break;
 
         case OperatingMode::TestTransmitter:
         {

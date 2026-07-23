@@ -8,18 +8,14 @@
 
 PulseCapture* PulseCapture::instance_ = nullptr;
 
-bool PulseCapture::init(uint dataPin, uint carrierSensePin)
+bool PulseCapture::init(uint dataPin)
 {
     dataPin_ = dataPin;
-    carrierSensePin_ = carrierSensePin;
+    hasCarrierSense_ = false;
 
     gpio_init(dataPin_);
     gpio_set_dir(dataPin_, GPIO_IN);
     gpio_pull_down(dataPin_);
-
-    gpio_init(carrierSensePin_);
-    gpio_set_dir(carrierSensePin_, GPIO_IN);
-    gpio_pull_down(carrierSensePin_);
 
     instance_ = this;
 
@@ -28,6 +24,23 @@ bool PulseCapture::init(uint dataPin, uint carrierSensePin)
         GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL,
         false,
         &PulseCapture::gpioCallback);
+
+    return true;
+}
+
+bool PulseCapture::init(uint dataPin, uint carrierSensePin)
+{
+    if (!init(dataPin))
+    {
+        return false;
+    }
+
+    carrierSensePin_ = carrierSensePin;
+    hasCarrierSense_ = true;
+
+    gpio_init(carrierSensePin_);
+    gpio_set_dir(carrierSensePin_, GPIO_IN);
+    gpio_pull_down(carrierSensePin_);
 
     return true;
 }

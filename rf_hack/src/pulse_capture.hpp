@@ -16,6 +16,7 @@ class PulseCapture
 public:
     static constexpr std::size_t MaxSamples = 4096;
 
+    bool init(uint dataPin);
     bool init(uint dataPin, uint carrierSensePin);
 
     void start();
@@ -39,6 +40,7 @@ private:
 
     uint dataPin_ = 0;
     uint carrierSensePin_ = 0;
+    bool hasCarrierSense_ = false;
 
     volatile bool running_ = false;
     volatile std::size_t sampleCount_ = 0;

@@ -183,3 +183,52 @@ void runPassiveKeyMonitor(CC1101& radio, PulseCapture& capture)
         sleep_ms(1);
     }
 }
+
+void runDirectAskMonitor(PulseCapture& capture, uint dataPin)
+{
+    if (!capture.init(dataPin))
+    {
+        printf("Direct ASK receiver initialization failed\n");
+        return;
+    }
+
+    static PulseSample samples[PulseCapture::MaxSamples];
+    capture.start();
+
+    printf("315 MHz ASK receiver monitor ready on GPIO %u\n", dataPin);
+    printf("Press a remote button; idle receiver noise is normal\n");
+
+    while (true)
+    {
+        if (capture.burstReady())
+        {
+            capture.stop();
+            const std::size_t count = capture.copySamples(
+                samples, PulseCapture::MaxSamples);
+
+            printf("BURST edges=%lu\n",
+                   static_cast<unsigned long>(count));
+
+            for (std::size_t i = 0; i < count; ++i)
+            {
+                printf("%c%lu%s",
+                       samples[i].level ? 'H' : 'L',
+                       static_cast<unsigned long>(samples[i].durationUs),
+                       (i + 1) % 12 == 0 ? "\n" : " ");
+            }
+            if (count % 12 != 0)
+            {
+                printf("\n");
+            }
+
+            capture.start();
+        }
+        else if (!capture.active())
+        {
+            printf("Capture buffer full; restarting\n");
+            capture.start();
+        }
+
+        sleep_ms(1);
+    }
+}

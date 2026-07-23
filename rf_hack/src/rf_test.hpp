@@ -46,3 +46,4 @@ bool runPingTest(CC1101& radio,
 
 void runResponder(CC1101& radio);
 void runPassiveKeyMonitor(CC1101& radio, PulseCapture& capture);
+void runDirectAskMonitor(PulseCapture& capture, uint dataPin);
